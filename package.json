@@ -1,0 +1,23 @@
+{
+  "name": "dependabot-ts-project",
+  "version": "1.0.0",
+  "main": "src/cli.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node src/cli.ts",
+    "test": "jest"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "dayjs": "^1.11.0",
+    "express": "^4.18.0",
+    "lodash": "^4.17.21",
+    "ts-morph": "^20.0.0"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0",
+    "ts-jest": "^29.0.0",
+    "typescript": "^5.0.0",
+    "ts-node": "^10.0.0"
+  }
+}

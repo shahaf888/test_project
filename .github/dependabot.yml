@@ -1,0 +1,9 @@
+version: 2
+updates:
+  - package-ecosystem: "npm"
+    directory: "/"                   # location of package.json
+    schedule:
+      interval: "daily"              # check for updates daily
+    open-pull-requests-limit: 10     # up to 10 PRs at a time
+    allow:
+      - dependency-type: "all"       # include both prod and dev deps
